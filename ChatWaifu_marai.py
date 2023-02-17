@@ -355,7 +355,7 @@ if __name__ == "__main__":
     api = ChatGPT(session_token)
     bot = miraicle.Mirai(qq=qq, verify_key=verify_key, port=port)
     print(idmessage)
-    peaker_id = input()
+    speaker_id = input()
     os_dir=os.getcwd()
 
     @miraicle.Mirai.receiver('GroupMessage')
